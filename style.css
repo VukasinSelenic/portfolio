@@ -1,0 +1,284 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	color: #fff;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+img {
+	max-width: 100%;
+}
+.header {
+	background: url("img/baner1.jpg");
+	background-size: cover;
+	background-attachment: scroll;
+	background-position: center;
+	height: 100vh;
+}
+
+.container h1 {
+	font-size: 90px;
+	font-weight: 700;
+	
+}
+.container p {
+	font-size: 32px;
+	
+}
+.container h3 {
+	font-size: 40px;
+	color: #3a6cf4; 
+	font-weight: 700;
+}
+.text .container {
+	padding-top: 170px;
+}
+
+
+.bg-light {
+	background: #1a1b30!important;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+	
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #4070F4;
+}
+.navbar-light .navbar-brand {
+	color: #4070F4!important;
+	font-size: 29px;
+}
+
+.socials i {
+	padding: 15px;
+	margin-top: 30px;
+	font-size: 30px;
+}
+.about p {
+	color: #393637;
+	font-size: 16px;
+}
+.about {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	max-width: 1100px;
+	margin: 0 auto;
+} 
+.part {
+	margin-top: 70px;
+}
+
+.about h3 {
+	color: #3a6cf4;
+
+}
+.about img {
+	border-radius: 5px;
+	max-width: 90%;
+	margin-top: 57px;
+	box-shadow: 0 0 0 5px #3a6cf4;
+	
+}
+
+.titl {
+	text-align: center;
+
+}
+
+.titl h2 {
+	color: #3a6cf4;
+	padding-top: 20px;
+	margin-bottom: 70px;
+	font-size: 35px;
+	font-weight: 700;
+}
+.about a {
+	background: #3a6cf4;
+	margin-top: 54px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 10px;
+	border-radius: 3px;
+}
+
+.skills {
+	background: #000018;
+	
+}
+.skills p {
+	font-size: 18px;
+}
+.project {
+	margin-top: 2px;
+	padding-bottom: 180px;
+	background: #000018;
+}
+.project .titl h2 {
+	padding-top: 80px;
+}
+
+
+
+.button {
+	text-align: center;
+}
+.button .btn {
+	color: #fff;
+	background: #3a6cf4;
+	padding: 10px;
+	margin-top: 50px;
+	font-size: 16px;
+	font-weight: 700;
+}
+.contact {
+	max-width: 900px;
+	margin: 0 auto;
+	margin-top: 100px;
+	margin-bottom: 200px;
+}
+.contact p {
+	font-size: 16px;
+	color: #585455;
+}
+.adresse h2 {
+	color: #000;
+	font-weight: 700;
+	font-size: 22px;
+	padding-bottom: 20px;
+}
+.adresse {
+	padding: 30px;
+	box-shadow: 0 0 40px 0 #000;
+	text-align: center;
+	height: 250px;
+}
+.adresse i {
+	background: #fff;
+	color: #3a6cf4;
+	font-size: 70px;
+	padding-bottom: 10px;
+}
+.footer {
+	background: #000018;
+	text-align: center;
+	padding: 20px;
+	margin-top: 160px;
+}
+.footer h2 {
+	color: #3a6cf4;
+}
+
+
+
+.project .card-text2 h3 {
+	color: #fff;
+}
+.project .card-text2 a {
+	color: #3a6cf4;
+	padding: 10px;
+	background: #fff;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: 900;
+}
+
+.project .container {
+	margin-top: 10%;
+}
+.card2 {
+	position: relative;
+	overflow: hidden;
+	height: 270px;
+	margin-bottom: 20px;
+}
+.card2:before {
+	position: absolute;
+	content: '';
+	width: 80%;
+	height: 220%;
+	background: #3a6cf4;
+	top: -50%;
+	left: -100%;
+	z-index: 1;
+	transform: rotate(25deg);
+	transform-origin: center top 0;
+	transition: 0.5s;
+	
+	
+}
+
+.card2:hover:before {
+	left: 10%;
+}
+.card2 img {
+	width: 100%;
+	height: auto;
+}
+
+.card-text2 {
+	width: 100%;
+	padding: 0 20px;
+	position: absolute;
+	top: -100%;
+	color: #fff;
+	left: 0;
+	z-index: 2;
+	transition: 1.2s;
+	
+}
+.card2:hover .card-text2 {
+	top: 30%;
+}
+.pro {
+	text-align: center;
+	margin-top: 40px;
+}	
+.pro a {
+	color: #3a6cf4;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: 700;
+}
+
+.skills {
+	background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("img/11.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.skills .container {
+	max-width: 900px;
+	margin: 0 auto;
+	font-weight: 700;
+	min-height: 80vh;
+	text-align: center;
+	margin-top: 150px;
+}
+.skills h2 {
+	padding-top: 100px;
+}
+.skills i {
+	font-size: 32px;
+	padding: 10px;
+	background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+	border-radius: 10%;
+	display: block;
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.skills i:hover {
+	color: #3a6cf4;
+}
+.ma {
+	margin-bottom: 70px;
+}
