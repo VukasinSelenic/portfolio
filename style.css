@@ -286,3 +286,17 @@ img {
 .ma {
 	margin-bottom: 70px;
 }
+.contact .card-pic {
+    transition: transform 0.5s ease;
+}
+.contact .card-pic:hover {
+    transform: translateY(-10px);
+}
+
+
+.skills i {
+    transition: transform 0.5s ease;
+}
+.skills i:hover {
+    transform: translateX(10px);
+}
