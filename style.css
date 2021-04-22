@@ -21,7 +21,10 @@ img {
 	background-position: center;
 	height: 100vh;
 }
-
+.container {
+	margin:0;
+	pading:0;
+}
 .container h1 {
 	font-size: 90px;
 	font-weight: 700;
