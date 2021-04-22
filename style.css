@@ -300,3 +300,9 @@ img {
 .skills i:hover {
     transform: translateX(10px);
 }
+.socials i {
+    transition: transform 0.5s ease;
+}
+.socials i:hover {
+    transform: translateY(-10px);
+}
